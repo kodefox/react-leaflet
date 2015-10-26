@@ -3,7 +3,8 @@ var path = require('path');
 
 module.exports = {
   entry: {
-    leaflet: './leaflet.js'
+    leaflet: './leaflet.js',
+    example: './example/example.js'
   },
   output: {
     path: path.join(__dirname, 'dist'),
